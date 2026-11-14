@@ -6,4 +6,4 @@ def backtest(prices, signals):
     strategy_returns = daily_returns * positions
     strategy_returns = strategy_returns.fillna(0)
     equity = (1 + strategy_returns).cumprod()
-    return equity
+    daily_returns = equity.pct_change()
