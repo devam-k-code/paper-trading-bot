@@ -221,6 +221,4 @@ __marimo__/
 
 # Project
 data/
-
-# Project
-data/
+.idea/
