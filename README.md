@@ -1,5 +1,7 @@
 # Paper Trading Bot
 
+![tests](https://github.com/devam-k-code/paper-trading-bot/actions/workflows/tests.yml/badge.svg)
+
 This is a learning project.
 
 
